@@ -1,0 +1,27 @@
+Update the system
+
+> sudo apt update && sudo apt upgrade -y
+> sudo apt dist-upgrade -y
+
+
+Install OpenVAS
+
+> sudo apt install openvas
+
+
+Run the following command to start the setup process:
+
+> sudo gvm-setup
+
+        After the configuration process is complete, all the necessary OpenVAS processes will start and the web interface will open 
+        automatically. The web interface is running locally on port 9392 and can be accessed through https://localhost:9392.
+
+
+Verify the Installation
+
+> sudo gvm-check-setup
+
+
+Password Reset
+
+> sudo runuser -u _gvm -- gvmd --user=admin --new-password=new_password
