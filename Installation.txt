@@ -25,3 +25,15 @@ Verify the Installation
 Password Reset
 
 > sudo runuser -u _gvm -- gvmd --user=admin --new-password=new_password
+
+
+
+
+
+
+
+
+
+
+
+
