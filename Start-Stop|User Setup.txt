@@ -1,0 +1,33 @@
+-- Starting and stopping OpenVAS
+
+
+To start the OpenVAS services:
+        
+        > sudo gvm-start
+
+To stop the OpenVAS services:
+
+        > sudo gvm-stop
+
+
+
+-- User Setup
+
+
+To create a new user:
+
+        > sudo runuser -u _gvm -- gvmd --create-user=admin2 --new-password=new_password
+
+To change the password of the existing user:
+
+        > sudo runuser -u _gvm -- gvmd --user=admin --new-password=new_password
+        
+
+
+
+
+
+
+
+
+
